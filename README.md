@@ -1,4 +1,4 @@
-# RestAPIusingPythonMongodb
+# Rest-API using Python and MongoDB
 This is a RESTful API for MongoDB (No-SQL). As this is a basic API, it has 4 basic functionalities of CRUD operations on the database: Create, Read, Update and Delete. The user will be able to perform the operations using the API and make changes to the database. Also to isolate the MongoDB server, we will dockerize the entire application in a container using Docker. For testing the API we would use Postman.
 
 ## Getting Started
