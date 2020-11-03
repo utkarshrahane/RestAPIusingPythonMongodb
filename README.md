@@ -72,7 +72,7 @@ For Reading:
 NOTE: Here, the name of my database is "products" and the collection(analogous to table in RDBMS) I am referring to is "ecom_data".
  6. Click Send, this will now fecth all the entries in the mentioned collection.
  
- ```read_get.jpg```
+![read_get](https://user-images.githubusercontent.com/65512919/97992864-4ff61b80-1e09-11eb-9578-c5ce6482d54c.JPG)
 
 
 Similarly, the route and input for other operations is stated below.  
@@ -95,7 +95,7 @@ For Writing:```http://localhost:5001/write```
     }
 }
 ```
-```write.jpg```
+![write_post](https://user-images.githubusercontent.com/65512919/97992938-6c925380-1e09-11eb-9dde-a490a8f2f7a3.JPG)
 
 For Updating:```http://localhost:5001/update```
 ```
@@ -110,7 +110,7 @@ For Updating:```http://localhost:5001/update```
     }
 }
 ```
-```update.jpg```
+![update_put](https://user-images.githubusercontent.com/65512919/97992996-7fa52380-1e09-11eb-979c-63e32fa7c610.JPG)
 
 For Deleting:```http://localhost:5001/delete```
 ```
@@ -122,7 +122,7 @@ For Deleting:```http://localhost:5001/delete```
     }
 }
 ```
-```delete.jpg```
+![delete_del](https://user-images.githubusercontent.com/65512919/97993094-9a779800-1e09-11eb-8db1-a2f15bf3fb4e.JPG)
 
 ### Deploying and hosting application with Docker
 1. Now, to host the entire application we will use two containers and to link them to each other, we have to use the ```docker-compose``` file along with ```Dockerfile``` that has been defined within the repository.
@@ -133,5 +133,9 @@ For Deleting:```http://localhost:5001/delete```
 ```
 3.Once done, execute:
 ```
-docker-compose up
+    docker-compose up
 ```
+NOTE: You might need to restart docker.
+Now the application is up and running deployed using docker.
+### Bugs or Improvements
+Every project needs improvements, Feel free to report any bugs or improvements. Pull requests are always welcome.
