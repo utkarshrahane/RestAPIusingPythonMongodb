@@ -63,14 +63,15 @@ For Reading:
 ```
 4. Select ```Body>raw>json``` from the window.
 5. Now, based on the structure and name of database into consideration, the format has to be edited.
+6. Click "Send", this will now fetch all the entries in the mentioned collection.
 ```  
 {
     "database": "products",
     "collection": "ecom_data" 
 }
 ```
-NOTE: Here, the name of my database is "products" and the collection (analogous to table in RDBMS) I am referring to is "ecom_data". You will have to refer to your database and it's schema while sending the requests.
-6. Click "Send", this will now fetch all the entries in the mentioned collection.
+NOTE: Here, the name of my database is "products" and the collection (analogous to table in RDBMS) I am referring to is "ecom_data". You will have to refer to your database and it's schema while sending the requests.  
+
  
 ![read_get](https://user-images.githubusercontent.com/65512919/97992864-4ff61b80-1e09-11eb-9578-c5ce6482d54c.JPG)
 
